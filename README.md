@@ -42,8 +42,8 @@ The arguments of all the methods are the same, let's take the method `blur` as e
  var options = {
     image : './path/to/your/image.jpg',
     to : './path/to/target.jpg', /* optional, if not specified, the main image will be overwritten */
-    level : 5, /* level of the effect that will be applied */
-    size : 200, /* you can resize your image while applying the effect */
+    level : 5, /* optional, level of the effect that will be applied (default value : 5) */
+    size : 200, /* optional, you can resize your image while applying the effect (default value : 100%) */
  };
  
  var callback = function (error) {
