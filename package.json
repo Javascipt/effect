@@ -1,0 +1,24 @@
+{
+  "name": "effect",
+  "version": "1.0.0",
+  "description": "Apply some effects on images using node js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javascipt/effect.git"
+  },
+  "keywords": [
+    "effect",
+    "effects",
+    "image",
+    "blur",
+    "gaussian"
+  ],
+  "author": "Khalid REHIOUI <Array.prototype@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Javascipt/effect/issues"
+  },
+  "homepage": "https://github.com/Javascipt/effect#readme",
+  "dependencies": {}
+}
