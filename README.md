@@ -1,5 +1,7 @@
 # Effect
 
+![Effect](https://travis-ci.org/Javascipt/effect.svg)
+
 Effect is a node package that allows you to add effects on images.
 
 ## Table of contents:
