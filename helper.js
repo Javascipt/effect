@@ -1,4 +1,5 @@
 var execFile = require('child_process').execFile
+var exec = require('child_process').exec
 
 module.exports = (function (exec) {
   function generateCmd (options) {
