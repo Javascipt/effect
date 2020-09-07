@@ -1,4 +1,4 @@
-var exec = require('child_process').exec
+var execFile = require('child_process').execFile
 
 module.exports = (function (exec) {
   function generateCmd (options) {
@@ -21,7 +21,8 @@ module.exports = (function (exec) {
   }
   
   function executeCommand (cmd, callback) {
-    exec(cmd, function (error) {
+    cmd = cmd.split(' ')
+    execFile(cmd[0], cmd.slice(1), function (error) {
       callback(error);
     });
   }
